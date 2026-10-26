@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+  <title>Modrino | Find Your Dream Car</title>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="w-80 header-div">
+      <figure>
+        <img src="./assets/logo (2).png" alt="logo" class="logo" />
+      </figure>
+      <nav>
+        <ul class="links">
+          <li><a href="#section-1">Home</a></li>
+          <li><a href="#section-2">About</a></li>
+          <li><a href="#section-3">Services</a></li>
+          <li><a href="#section-4">Contact</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU OVERLAY -->
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="close-btn" onclick="toggleMenu()"><i class="ri-close-line"></i></div>
+    <ul>
+      <li><a href="#section-1" onclick="toggleMenu()">Home</a></li>
+      <li><a href="#section-2" onclick="toggleMenu()">About</a></li>
+      <li><a href="#section-3" onclick="toggleMenu()">Services</a></li>
+      <li><a href="#section-4" onclick="toggleMenu()">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- SECTION-1  -->
+  <main>
+    <section class="sections" id="section-1">
+      <div class="w-80 section-1-div">
+        <div class="circle-div">
+          <img src="./assets/bg-circle.png" alt="" class="circle-1" />
+          <img src="./assets/llipse 2.png" alt="" class="circle-2" />
+          <img src="./assetsEllipse 3.png" alt="" class="circle-3" />
+          <img src="./asset/Ellipse 3.png" alt="" class="circle-4" />
+        </div>
+
+        <div class="section-1-content">
+          <span class="badge">🔥 #1 Car Marketplace</span>
+          <h1>Find Your <span>Dream</span> Car</h1>
+          <p>
+            Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s.
+          </p>
+          <button class="button-1">Read More <i class="ri-arrow-right-line"></i></button>
+        </div>
+
+        <div class="section-1-car-div">
+          <figure>
+            <img src="./assets/car.png" alt="car" class="section-1-img" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION-2  -->
+    <section class="sections" id="section-2">
+      <div class="w-80 grid-div">
+        <div class="car-div">
+          <img src="./assets/Union.png" alt="" />
+          <h4>Sedan</h4>
+        </div>
+        <div class="car-div">
+          <img src="./assets/Union.png" alt="" />
+          <h4>SUV</h4>
+        </div>
+        <div class="car-div">
+          <img src="./assets/Union.png" alt="" />
+          <h4>Sports</h4>
+        </div>
+        <div class="car-div">
+          <img src="./assets/Union.png" alt="" />
+          <h4>Electric</h4>
+        </div>
+        <div class="car-div">
+          <img src="./assets/Union.png" alt="" />
+          <h4>Hatchback</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION-3  -->
+    <section class="sections" id="section-3">
+      <div class="section-3-div">
+        <div class="section-3-head">
+          <h1>Top <span>Categories</span></h1>
+        </div>
+
+        <div class="modal-div">
+          <ul class="modal-ul">
+            <li><a href="" class="modal-a active-tab">In Stock</a></li>
+            <li><a href="" class="modal-a">Used Cars</a></li>
+            <li><a href="" class="modal-a">Any Models</a></li>
+            <li><a href="" class="modal-a">Any Motors</a></li>
+            <li><a href="" class="modal-a">All Prices</a></li>
+          </ul>
+        </div>
+
+        <div class="line-div"></div>
+
+        <div class="section-3-car">
+          <div class="section-3-car-content">
+            <h2>Rolls Royce Wraith</h2>
+            <button class="button-2">Learn More <i class="ri-arrow-right-line"></i></button>
+          </div>
+          <div class="rolls-royce">
+            <img src="./assets/roolsroyce.png" alt="" />
+          </div>
+        </div>
+
+        <!-- SMALLS-CARS  -->
+        <section id="small-car-section">
+          <div class="small-car-box">
+            <img src="./assets/Rectangle 22.png" alt="" class="small-car-img" />
+            <div class="car-div-content">
+              <div>
+                <h5>Ferrari</h5>
+                <p>Lorem Ipsum</p>
+              </div>
+              <div class="price-box">
+                <p>$78,000</p>
+                <img src="./assets/Vector (11).png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="small-car-box">
+            <img src="./assets/Rectangle 22.png" alt="" class="small-car-img" />
+            <div class="car-div-content">
+              <div>
+                <h5>Ferrari</h5>
+                <p>Lorem Ipsum</p>
+              </div>
+              <div class="price-box">
+                <p>$78,000</p>
+                <img src="./assets/Vector (11).png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="small-car-box">
+            <img src="./assets/Rectangle 22.png" alt="" class="small-car-img" />
+            <div class="car-div-content">
+              <div>
+                <h5>Ferrari</h5>
+                <p>Lorem Ipsum</p>
+              </div>
+              <div class="price-box">
+                <p>$78,000</p>
+                <img src="./assets/Vector (11).png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="small-car-box">
+            <img src="./assets/Rectangle 22.png" alt="" class="small-car-img" />
+            <div class="car-div-content">
+              <div>
+                <h5>Ferrari</h5>
+                <p>Lorem Ipsum</p>
+              </div>
+              <div class="price-box">
+                <p>$78,000</p>
+                <img src="./assets/Vector (11).png" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- SECTION-4  -->
+    <section class="section-4" id="section-4">
+      <h1>Our <span>Services</span></h1>
+      <div class="section-4-div">
+        <div class="section-4-card1 text-card">
+          <h2>All Brands</h2>
+          <p>Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+          <p>Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+          <a href="#" class="learn-link">Learn More <i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="section-4-img1 img-card"><img src="./assets/Rectangle 148.png" alt="" /></div>
+        <div class="section-4-img2 img-card"><img src="./assets/Rectangle 150.png" alt="" /></div>
+        <div class="section-4-card2 text-card">
+          <h2>All Brands</h2>
+          <p>Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+          <p>Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+          <a href="#" class="learn-link">Learn More <i class="ri-arrow-right-line"></i></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER  -->
+  <footer class="sections footer">
+    <div class="w-80 footer-div">
+      <div class="img-div">
+        <img src="./assets/logo (2).png" alt="" />
+        <p>Driving your dreams forward, one car at a time.</p>
+        <div class="footer-social">
+          <a href="#"><i class="ri-facebook-fill"></i></a>
+          <a href="#"><i class="ri-twitter-fill"></i></a>
+          <a href="#"><i class="ri-instagram-line"></i></a>
+        </div>
+      </div>
+      <div class="footer-links-div">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#section-1">Home</a></li>
+          <li><a href="#section-2">About</a></li>
+          <li><a href="#section-3">Service</a></li>
+          <li><a href="#section-4">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-info-div">
+        <h3>Contact Us</h3>
+        <h2><i class="ri-phone-fill"></i> (456) 789-12301</h2>
+        <p><i class="ri-mail-fill"></i> info@modrino.co.uk</p>
+        <p><i class="ri-map-pin-fill"></i> South 13th street, New york America</p>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>© 2024 Modrino. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('mobileMenu').classList.toggle('active');
+    }
+
+    window.addEventListener('scroll', function () {
+      const header = document.querySelector('header');
+      header.classList.toggle('scrolled', window.scrollY > 20);
+    });
+  </script>
+</body>
+</html>
